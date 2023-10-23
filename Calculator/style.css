@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cccccc;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.heading{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.input{
+    padding: 30px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button{
+    padding: 30px 33.3px;
+    border: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.button:hover{
+    background-color:#333333 ;
+    transition: 0.2s ease-in;
+}
+.sam{
+    padding: 30px 34.1px;
+}
+.ac-button{
+    padding:  30px 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.ac-button:hover{
+    background-color: #08A045;
+    transition: 0.2s ease-in;
+}
+.func-button:hover{
+    background-color: #9a9a9a;
+    transition: 0.2s ease-in;
+}
+.func-button{
+    padding:30px 30px;
+    border:none;
+    background-color: grey;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+}
